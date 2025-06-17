@@ -12,7 +12,7 @@ dependencies = [
     "fastapi[all] (>=0.115.12,<0.116.0)",
     "sqlmodel (>=0.0.24,<0.0.25)",
     "my-package (>=0.0.0,<0.0.1)",
-    "secure-auth-api @ git+https://${GITHUB_TOKEN}github.com/camilo199217/secure-auth-api.git@main",
+    "secure-auth-api @ git+https://${GITHUB_TOKEN}@github.com/camilo199217/secure-auth-api.git@main",
     "uvicorn[standard] (>=0.34.3,<0.35.0)"
 ]
 
