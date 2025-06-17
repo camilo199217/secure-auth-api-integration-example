@@ -691,17 +691,6 @@ files = [
 ]
 
 [[package]]
-name = "my-package"
-version = "0.0.0"
-description = ""
-optional = false
-python-versions = "*"
-groups = ["main"]
-files = [
-    {file = "my_package-0.0.0-py3-none-any.whl", hash = "sha256:2252e7a80c96f9cf6fd4c07150ba7d1c4b10f44333a7ab3bde2cc9efb9818fbb"},
-]
-
-[[package]]
 name = "orjson"
 version = "3.10.18"
 description = "Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy"
@@ -1971,4 +1960,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9,<4.0"
-content-hash = "a4cead50b8726beca317aff0d559aa26a3d69933c9f7c45787b3b1f712a687c5"
+content-hash = "2ced35184a7301d25061097aed26247667266d1a735a73716c1d73bbf7bd2067"
