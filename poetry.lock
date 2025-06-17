@@ -1260,7 +1260,7 @@ uvicorn = ">=0.34.3,<0.35.0"
 
 [package.source]
 type = "git"
-url = "https://github.com/camilo199217/secure-auth-api.git"
+url = "https://${GITHUB_TOKEN}@github.com/camilo199217/secure-auth-api.git"
 reference = "main"
 resolved_reference = "965354d5cb1a94c3f0e6631ae11f8bc635b53957"
 
@@ -1971,4 +1971,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9,<4.0"
-content-hash = "a4cead50b8726beca317aff0d559aa26a3d69933c9f7c45787b3b1f712a687c5"
+content-hash = "62a0a744b734c5dde6053da71d39f6b74edc466614eb70321af8d5b5cd1bb573"
